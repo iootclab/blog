@@ -1,7 +1,7 @@
 ---
 title: typora-vue-theme主题介绍
 date: 2021-04-01 16:21:37
-author: 四多
+author: 进击的四多
 top: true
 cover: true
 coverImg: https://images.pexels.com/photos/6347969/pexels-photo-6347969.jpeg

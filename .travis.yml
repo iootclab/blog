@@ -26,7 +26,7 @@ script:
 - hexo g
 
 after_script:
-  # - rsync -rv --delete -e 'ssh -o stricthostkeychecking=no -p 22' public/ git@www.aweif.com:/data/www/blog
+  - rsync -rv --delete -e 'ssh -o stricthostkeychecking=no -p 22' public/ git@www.aweif.com:/data/www/blog
   - cd ./public
   - git init
   - git add .

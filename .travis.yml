@@ -1,61 +1,32 @@
-# language: node_js
-# node_js: stable
-
-# # https://docs.travis-ci.com/user/job-lifecycle
-# install:
-#   - npm install hexo
-
-# script:
-# - hexo clean
-# - hexo g
-
-# after_script:
-#   - cd ./public
-#   - git init
-#   - git config user.name "Johnathon"
-#   - git config user.email "johnathon.btc@gmail.com"
-#   - git add .
-#   - git commit -m "Auto build by Travis CI."
-#   - git push --force --quiet "https://${GH_CI_TOKEN}@${GH_CI_REF}" master
-
-# branches:
-#   only:
-#     - master
-
-# env:
-#   global:
-#     - GH_CI_REF: github.com/iootclab/iootclab.github.io.git
-
 language: node_js
 node_js: stable
+
+env:
+  global:
+    - GH_CI_REF: github.com/iootclab/iootclab.github.io.git
+
 branches:
   only:
     - master
 
-cache:
-  apt: true
-  yarn: true
-  directories:
-    - node_modules
-
+# https://docs.travis-ci.com/user/job-lifecycle
+# http://www.ruanyifeng.com/blog/2017/12/travis_ci_tutorial.html
 before_install:
   - git config --global user.name "Johnathon"
   - git config --global user.email "johnathon.btc@gmail.com"
-  - curl -o- -L https://yarnpkg.com/install.sh | bash
-  - export PATH=$HOME/.yarn/bin:$PATH
-  - npm install -g hexo-cli
 
 install:
-  - yarn
+  - npm install hexo
 
 script:
-  - hexo clean
-  - hexo generate
+- hexo clean
+- hexo g
 
-after_success:
+after_script:
   - cd ./public
   - git init
-  - git add --all .
+  - git add .
   - git commit -m "Auto build by Travis CI."
-  - git push --quiet --force https://${GH_CI_TOKEN}@github.com/iootclab/iootclab.github.io.git master
+  - git push --force --quiet "https://${GH_CI_TOKEN}@${GH_CI_REF}" master
+
 

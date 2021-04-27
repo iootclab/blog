@@ -57,5 +57,5 @@ after_success:
   - git init
   - git add --all .
   - git commit -m "Auto build by Travis CI."
-  - git push --quiet --force https://$REPO_TOKEN@github.com/iootclab/iootclab.github.io.git master
+  - git push --quiet --force https://${GH_CI_TOKEN}@github.com/iootclab/iootclab.github.io.git master
 

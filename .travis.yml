@@ -12,6 +12,9 @@ branches:
 # https://docs.travis-ci.com/user/job-lifecycle
 # http://www.ruanyifeng.com/blog/2017/12/travis_ci_tutorial.html
 before_install:
+  - openssl aes-256-cbc -K $encrypted_907e9e66a763_key -iv $encrypted_907e9e66a763_iv
+    -in id_rsa.enc -out ~/.ssh/id_rsa -d
+  - chmod 600 ~/.ssh/id_rsa
   - git config --global user.name "Johnathon"
   - git config --global user.email "johnathon.btc@gmail.com"
 
@@ -23,10 +26,9 @@ script:
 - hexo g
 
 after_script:
+  - rsync -rv --delete -e 'ssh -o stricthostkeychecking=no -p 22' public/ git@www.aweif.com:/data/www/blog
   - cd ./public
   - git init
   - git add .
   - git commit -m "Auto build by Travis CI."
   - git push --force --quiet "https://${GH_CI_TOKEN}@${GH_CI_REF}" master
-
-

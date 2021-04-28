@@ -76,7 +76,7 @@ music:
   autoHide: true    # hide automaticaly
   server: netease   #require	music platform: netease, tencent, kugou, xiami, baidu
   type: playlist    #require song, playlist, album, search, artist
-  id: 6588581799     #require	song id / playlist id / album id / search keyword
+  id: 322015075     #require	song id / playlist id / album id / search keyword
   fixed: true       # 开启吸底模式
   autoplay: false   # 是否自动播放
   theme: '#42b983'
@@ -158,7 +158,7 @@ code:
 # 是否激活文章末尾的打赏功能，默认激活（替换为的你自己的微信、支付宝二维码图片）.
 reward:
   enable: true
-  title: 你的赏识是我前进的动力
+  title: 未成年人请勿打赏
   wechat: /medias/reward/wechat.png
   alipay: /medias/reward/alipay.jpg
 
@@ -218,8 +218,8 @@ myProjects:
     aweif:
         icon: fas fa-compress
         iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-        url: https://github.com/iootclab/aweif
-        desc: 这是 www.aweif.com 基础框架。
+        url: https://github.com/iootclab/lunabase
+        desc: lunabase ['ljuːnəbeɪs], The future is coming.
     document-style-guide:
         icon: fas fa-file-alt
         iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
@@ -235,19 +235,19 @@ mySkills:
     Java:
       background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
       percent: 90%
-    架构设计与服务治理:
+    微服务架构设计与治理:
       background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
       percent: 90%
-    服务拆分/架构演进:
+    大型分布式架构演进:
       background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
       percent: 87%
-    大型分布式架构:
+    服务性能优化/拆分与重构:
       background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
       percent: 85%
-    系统性能优化:
+    领域驱动模型设计:
       background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
       percent: 85%
-    技术选型/规范落地/体系建设:
+    技术选型/规范落地/团队建设:
       background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
       percent: 81%
 
@@ -257,9 +257,9 @@ mySkills:
 myGallery:
   enable: true
   data:
-    - /medias/featureimages/0.jpg
     - /medias/featureimages/1.jpg
-    - /medias/featureimages/2.jpg
+    - /medias/featureimages/4.jpg
+    - /medias/featureimages/5.jpg
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
@@ -342,12 +342,13 @@ changyan:
   enable: false
   appId:
   conf:
+
 # Whether to display fork me on github icon and link, default true, You can change it to your repo address
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
   url: https://github.com/iootclab/iootclab.github.io
-  title: Fork Me
+  title: 点我
 
 # The configuration of the Twikoo comment module is not activated by default.
 # To use it, activate the configuration item and set envId.

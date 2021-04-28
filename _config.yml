@@ -4,7 +4,7 @@
 
 # Site
 title: 进击的四多
-subtitle: 执行 敬畏 感恩
+subtitle: 沉淀 成长 感恩
 description: ''
 keywords: 编程 阅读 分享
 author: 四多
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://iootclab.github.io/
+url: https://aweif.com/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:

@@ -72,7 +72,7 @@ music:
   enable: true
   title: #非吸底模式有效
     enable: true
-    show: 轻松一下
+    show: 听听音乐
   autoHide: true    # hide automaticaly
   server: netease   #require	music platform: netease, tencent, kugou, xiami, baidu
   type: playlist    #require song, playlist, album, search, artist
@@ -93,8 +93,8 @@ video:
   enable: true
   showTitle: true
   title: 亲爱的篮球
-  url: # 必填
-  pic:
+  url: # http://static.aweif.com/files/video/Dear%20Basketball.mkv
+  pic: http://static.aweif.com/files/image/4wd3h.jpg
   thumbnails:
   height: # 如：400
   autoplay: false # 是否自动播放
@@ -215,7 +215,7 @@ myProjects:
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
       url: https://github.com/iootclab/how-to-become-an-architect
       desc: 架构百科
-    aweif:
+    lunabase:
         icon: fas fa-compress
         iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
         url: https://github.com/iootclab/lunabase
@@ -257,9 +257,9 @@ mySkills:
 myGallery:
   enable: true
   data:
-    - /medias/featureimages/1.jpg
-    - /medias/featureimages/4.jpg
-    - /medias/featureimages/5.jpg
+    - http://static.aweif.com/files/image/af2ej.jpg
+    - http://static.aweif.com/files/image/ydj3l.jpg
+    - http://static.aweif.com/files/image/j3n5e.jpg
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
@@ -347,8 +347,8 @@ changyan:
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
-  url: https://github.com/iootclab/iootclab.github.io
-  title: 点我
+  url: https://github.com/iootclab/lunabase.git
+  title: 探索
 
 # The configuration of the Twikoo comment module is not activated by default.
 # To use it, activate the configuration item and set envId.
@@ -546,8 +546,8 @@ subtitle:
   typeSpeed: 75 # 打字速度
   backSpeed: 35 # 删除速度
   sub:
-    - 从来没有真正的绝境, 只有心灵的迷途
-    - Never really desperate, only the lost of the soul
+    - 努力去做最好的自己
+    - Trying to be the best version of myself.
 
 # 手机二级菜单.
 navMenu:

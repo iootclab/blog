@@ -1,37 +1,73 @@
 [{
-	"avatar": "http://image.luokangyuan.com/1_qq_27922023.jpg",
-	"name": "码酱",
-	"introduction": "我不是大佬，只是在追寻大佬的脚步",
-	"url": "http://luokangyuan.com/",
+	"avatar": "http://static.aweif.com/files/image/2jj6m.jpg",
+	"name": "美团技术团队",
+	"introduction": "一行代码，亿万生活。",
+	"url": "https://tech.meituan.com/",
 	"title": "前去学习"
-}, {
-	"avatar": "https://statics.sh1a.qingstor.com/2019/06/01/coder.png",
-	"name": "码农",
-	"introduction": "这里不隐含扭曲的价值观，而是整合并充盈正能量",
-	"url": "https://www.90c.vip/",
+},{
+	"avatar": "https://tech.youzan.com/content/images/2017/10/logo.png",
+	"name": "有赞技术团队",
+	"introduction": "Thoughts, stories and ideas.",
+	"url": "https://tech.youzan.com/",
 	"title": "前去学习"
-}, {
-	"avatar": "https://statics.sh1a.qingstor.com/2019/06/01/avatar2.png",
-	"name": "洪卫の博客",
-	"introduction": "凭寄狂夫书一纸，信在成都万里桥。",
-	"url": "https://sunhwee.com",
+},{
+	"avatar": "https://www.knownsec.com/static/dist/imgs/dbe63a00.logo.png",
+	"name": "Seebug",
+	"introduction": "网络安全及漏洞分析防范",
+	"url": "https://www.seebug.org/",
 	"title": "前去学习"
-}, {
-	"avatar": "https://statics.sh1a.qingstor.com/2019/06/01/avatar.jpg",
-	"name": "过客~励む",
-	"introduction": "你现在的努力，是为了以后有更多的选择。",
-	"url": "https://yafine-blog.cn",
+},{
+	"avatar": "https://tva1.sinaimg.cn/crop.106.166.473.473.180/722c5856jw8erz9s0skitj20np0hsdgm.jpg",
+	"name": "阿里褚霸",
+	"introduction": "高性能、容错、分布式服务器的研究和实现",
+	"url": "http://blog.yufeng.info/",
+	"title": "膜拜大佬"
+},{
+	"avatar": "http://www.ruanyifeng.com/blog/images/person2_s.jpg",
+	"name": "阮一峰",
+	"introduction": "开发者入门手册首选",
+	"url": "http://www.ruanyifeng.com/home.html",
+	"title": "膜拜大佬"
+},{
+	"avatar": "http://lovestblog.cn/images/header/header.jpg",
+	"name": "你假笨",
+	"introduction": "PerfMa@JVM",
+	"url": "http://lovestblog.cn/",
+	"title": "膜拜大佬"
+},{
+	"avatar": "https://insights.thoughtworks.cn/wp-content/uploads/2021/03/女性播客logo_画板-1-副本-150x150.png",
+	"name": "ThoughtWorks",
+	"introduction": "领域驱动设计及敏捷实践精选",
+	"url": "https://insights.thoughtworks.cn/",
 	"title": "前去探索"
-}, {
-	"avatar": "https://statics.sh1a.qingstor.com/2019/06/01/avatar5.png",
-	"name": "Sitoi",
-	"introduction": "妄想通过成为 Spider-Man 来实现财富自由的程序猿",
-	"url": "https://sitoi.cn",
+},{
+	"avatar": "https://avatars.githubusercontent.com/u/865763?v=4",
+	"name": "鸟窝",
+	"introduction": "Golang 布道师",
+	"url": "https://colobu.com/",
 	"title": "前去探索"
-}, {
-	"avatar": "https://statics.sh1a.qingstor.com/2019/06/01/avatar3.jpeg",
-	"name": "Five-great",
-	"introduction": "有事多研究，没事瞎琢磨。(Five-great)",
-	"url": "http://www.fivecc.cn/",
-	"title": "前去探索"
+},{
+	"avatar": "https://blinkfox.github.io/medias/avatar.jpg",
+	"name": "闪烁之狐",
+	"introduction": "从来没有真正的绝境, 只有心灵的迷途",
+	"url": "https://blinkfox.github.io/",
+	"title": "前去观摩"
+},{
+	"avatar": "https://tva2.sinaimg.cn/crop.0.1.635.635.180/62d8efadgw1ej30downrsj20hs0hq0ws.jpg",
+	"name": "廖雪峰",
+	"introduction": "Java 系列教程布道师！",
+	"url": "https://www.liaoxuefeng.com/",
+	"title": "查看教程"
+},{
+	"avatar": "https://avatars.githubusercontent.com/u/2015545?v=4",
+	"name": "芋道源码",
+	"introduction": "愿半生编码，如一生老友！",
+	"url": "https://www.iocoder.cn/",
+	"title": "阅读源码"
+},{
+	"avatar": "https://sofi.sh/sofish.jpg",
+	"name": "小鱼",
+	"introduction": "一个凝视深渊的人",
+	"url": "https://sofi.sh/",
+	"title": "前端延伸"
 }]

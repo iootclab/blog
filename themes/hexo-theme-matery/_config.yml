@@ -202,7 +202,8 @@ clicklove:
 profile:
   avatar: /medias/avatar.jpg
   career: 软件工程师 / 首席铲屎官
-  introduction: 给岁月以文明，而不是给文明以岁月。
+# introduction: 给岁月以文明，而不是给文明以岁月。
+  introduction: 在线互娱&现场娱乐票务奔跑者（历史博客文章逐步迁移中...）
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -257,9 +258,9 @@ mySkills:
 myGallery:
   enable: true
   data:
-    - http://static.aweif.com/files/image/af2ej.jpg
-    - http://static.aweif.com/files/image/ydj3l.jpg
-    - http://static.aweif.com/files/image/j3n5e.jpg
+    - /medias/featureimages/4.jpg
+    - /medias/featureimages/18.jpg
+    - /medias/featureimages/5.jpg
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件

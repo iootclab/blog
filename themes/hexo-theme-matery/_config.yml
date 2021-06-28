@@ -239,7 +239,7 @@ mySkills:
     微服务架构设计与治理:
       background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
       percent: 90%
-    大型分布式架构演进:
+    基于电商业务中台架构演进:
       background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
       percent: 87%
     服务性能优化/拆分与重构:

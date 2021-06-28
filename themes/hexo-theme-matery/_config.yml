@@ -94,7 +94,7 @@ video:
   showTitle: true
   title: 亲爱的篮球
   url: # http://static.aweif.com/files/video/Dear%20Basketball.mkv
-  pic: http://static.aweif.com/files/image/4wd3h.jpg
+  pic: https://cdn.jsdelivr.net/gh/iootclab/cdn/images/dear-basketball-by-kobe.jpg
   thumbnails:
   height: # 如：400
   autoplay: false # 是否自动播放
